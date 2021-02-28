@@ -2,20 +2,31 @@
 <html lang="es">
 
 <head>
-  <title>Bienes y raices</title>
+  <title>JCAI | Bienes y raices</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
+  <link rel="shortcut icon" href="../../favicon.ico"
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Leckerli+One">
+
   <link rel="stylesheet" href="assets/css/styles.br.css">
   <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
   <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
   <link rel="stylesheet" href="assets/vendor/icon-line/css/simple-line-icons.css">
   <link rel="stylesheet" href="assets/css/animate.css">
-  <link rel="stylesheet" href="assets/css/cubeportfolio.min.css">
+  <link rel="stylesheet" href="assets/vendor/cubeportfolio-full/cubeportfolio/css/cubeportfolio.min.css">
+  <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
   <link rel="stylesheet" href="assets/css/chosen.css">
   <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
+  <link rel="stylesheet" href="assets/vendor/dzsparallaxer/dzsparallaxer.css">
+  <link rel="stylesheet" href="assets/vendor/dzsparallaxer/dzsscroller/scroller.css">
+  <link rel="stylesheet" href="assets/vendor/dzsparallaxer/advancedscroller/plugin.css">
 
 </head>
 
@@ -51,7 +62,7 @@
   								<a href="#info" class="nav-link p-0">Información</a>
   							</li>
   							<li class="nav-item g-mx-12--lg g-mb-7 g-mb-0--lg">
-  								<a href="#subscribe" class="nav-link p-0">Financiamiento</a>
+  								<a href="#finan" class="nav-link p-0">Financiamiento</a>
   							</li>
                 <li class="nav-item g-ml-12--lg">
                   <a href="#gallery" class="nav-link p-0">Galeria</a>
@@ -62,18 +73,18 @@
   						</ul>
   					</div>
 
-  					<button class="navbar-toggler btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-20 g-right-0" type="button"
-  					        aria-label="Toggle navigation"
-  					        aria-expanded="false"
-  					        aria-controls="navBar"
-  					        data-toggle="collapse"
-  					        data-target="#navBar">
+            <button class="navbar-toggler btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-20 g-right-0" type="button"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false"
+                    aria-controls="navBar"
+                    data-toggle="collapse"
+                    data-target="#navBar">
                   <span class="hamburger hamburger--slider">
                     <span class="hamburger-box">
                       <span class="hamburger-inner"></span>
                     </span>
                   </span>
-  					</button>
+            </button>
   				</div>
   			</nav>
   		</div>
@@ -85,7 +96,7 @@
           <h3 class="d-inline-block text-uppercase g-font-weight-700 g-font-size-22 g-color-white g-brd-bottom g-brd-3 g-brd-primary g-mb-10">La casa de tus sueños</h3>
           <h1 class="g-line-height-1_5 g-font-weight-700 g-font-size-50 g-color-white g-mb-15">¡SIN ENGANCHE!</h1>
           <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-white g-mb-35">No pierdas esta oportunidad única e invierte en un cómodo y seguro futuro para ti y tu Familia</h3>
-          <a class="btn btn-md text-uppercase u-btn-primary g-font-weight-700 g-font-size-15 g-brd-none rounded-0 g-py-10 g-px-25" href="#">Contactanos</a>
+          <button style="background-color:#C4E60F" class="g-brd-none rounded-0 g-py-5 g-px-8"><a class="btn btn-md text-uppercase u-btn-primary g-font-weight-700 g-font-size-15 g-brd-none rounded-0 g-py-10 g-px-25" href="#contact">Contactanos</a></button>
         </div>
       </div>
     </section>
@@ -96,6 +107,11 @@
           <h2 class="u-heading-v2__title g-font-weight-700 g-font-size-30 g-font-size-40--md g-theme-color-gray-dark-v1">Información</h2>
         </div>
       </div>
+    </div>
+
+    <div style="background-color:#9dba04" class=" rounded-0 g-py-15 g-px-40" >
+      <h3 class="text-uppercase g-font-size-70 g-color-white g-mb-5 centrado">$1,321,968</h3>
+      <h3 class="g-font-size-30 g-color-white centrado">MENSUALIDADES FIJAS DE $14,098</h3>
     </div>
 
     <section id="since" class="g-py-80">
@@ -203,6 +219,56 @@
       </div>
     </section>
 
+    <section>
+    <div style="background-color:#9dba04" class=" rounded-0 g-py-20">
+
+     <div class="lihome"> <ul id="lista1">
+       <li><a ><img src="assets/img-temp/130x130/img1.jpg" width="140" height="140"/><br /><span class="d-block text-uppercase g-pos-rel g-font-weight-700 g-font-size-16 g-brd-bottom g-brd-2 g-py-15 g-color-white">3 Recamaras</span></a></li>
+       <li><a ><img src="assets/img-temp/130x130/img5.jpg" width="140" height="140"/><br /><span class="d-block text-uppercase g-pos-rel g-font-weight-700 g-font-size-16 g-brd-bottom g-brd-2 g-py-15 g-color-white">2.5 Baños</span></a></li>
+       <li><a ><img src="assets/img-temp/130x130/img6.jpg" width="140" height="140"/><br /><span class="d-block text-uppercase g-pos-rel g-font-weight-700 g-font-size-16 g-brd-bottom g-brd-2 g-py-15 g-color-white">Cocina Integral</span></a></li>
+       <li><a ><img src="assets/img-temp/130x130/img4.jpg" width="140" height="140"/><br /><span class="d-block text-uppercase g-pos-rel g-font-weight-700 g-font-size-16 g-brd-bottom g-brd-2 g-py-15 g-color-white">Jardin Trasero</span></a></li>
+       <li><a ><img src="assets/img-temp/130x130/img2.jpg" width="140" height="140"/><br /><span class="d-block text-uppercase g-pos-rel g-font-weight-700 g-font-size-16 g-brd-bottom g-brd-2 g-py-15 g-color-white">Area de lavado</span></a></li>
+       <li><a ><img src="assets/img-temp/130x130/img3.jpg" width="140" height="140"/><br /><span class="d-block text-uppercase g-pos-rel g-font-weight-700 g-font-size-16 g-brd-bottom g-brd-2 g-py-15 g-color-white">98m² De Construcción</span></a></li>
+      </ul>
+     </div>
+   </div>
+    </section>
+
+    <section id="whyWe" class="dzsparallaxer auto-init height-is-based-on-content use-loading"
+             data-options='{direction: "reverse", settings_mode_oneelement_max_offset: "150"}'>
+      <!-- Parallax Image -->
+      <div class="divimage dzsparallaxer--target w-100 u-bg-overlay g-bg-black-opacity-0_5--after" style="height: 140%; background-image: url(assets/img-temp/1400x700/img1.jpg)"></div>
+      <!-- End Parallax Image -->
+
+      <div class="text-center d-flex g-height-100vh">
+        <div class="container align-self-center g-max-width-750 g-font-size-16">
+          <div class="text-uppercase g-line-height-1_3 g-mb-20">
+            <h2 class="g-line-height-1_3 g-font-size-36 g-color-white mb-0">Mira nuestro <strong>Video-Recorrido</strong></h2>
+          </div>
+
+          <p class="g-color-gray-dark-v5 g-mb-65">No dejes pasar la oportunidad de vivir en este desarrollo, Bahía de Banderas Nayarit cuenta con grandes proyectos de inversión, nuevos hoteles, centros comerciales, hospitales y el maravilloso centro de diversiones Cirque Du Soleil a tan solo unos minutos.</p>
+
+          <a class="js-fancybox-media btn u-btn-primary g-pos-rel g-width-70 g-height-70 g-rounded-50" href="javascript:;"
+             data-src="https://www.youtube.com/watch?v=K_hf0O2DpdI&ab_channel=ManglarRivieraNayarit"
+             data-animate-in="fadeIn"
+             data-animate-out="fadeOut"
+             data-speed="1000">
+            <i class="fa fa-play center-it"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div id="finan" class="g-py-30 g-py-80--md text-center">
+      <div class="container">
+        <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary">
+          <h2 class="u-heading-v2__title g-font-weight-700 g-font-size-30 g-font-size-40--md g-theme-color-gray-dark-v1">Financiamiento</h2>
+        </div>
+      </div>
+    </div>
+
+
+
     <section id="gallery" class="g-pt-90">
       <div class="g-py-30 g-py-80--md text-center">
         <div class="container">
@@ -280,9 +346,6 @@
     </section>
 
 
-
-
-
     <footer id="contact" class="text-center">
       <div class="g-py-30 g-py-80--md">
         <div class="container">
@@ -352,7 +415,37 @@
         </div>
       </div>
 
+
+      <div class="g-pos-rel g-height-450">
+        <div id="gMap" class="js-g-map g-pos-abs w-100 h-100"
+             data-type="custom"
+             data-lat="40.674"
+             data-lng="-73.946"
+             data-zoom="12"
+             data-title="Cources"
+             data-styles='[
+                 ["", "", [{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]],
+                 ["", "labels", [{"visibility":"on"}]],
+                 ["water", "", [{"color":"#c7eced"}]]
+               ]'
+             data-pin="true"
+             data-pin-icon="assets/img/pin.png"></div>
+      </div>
+
     </footer>
+
+    <a class="js-go-to u-go-to-v1" href="#"
+       data-type="fixed"
+       data-position='{
+         "bottom": 15,
+         "right": 15
+       }'
+       data-offset-top="400"
+       data-compensation="#js-header"
+       data-show-effect="zoomIn">
+      <i class="hs-icon hs-icon-arrow-top"></i>
+    </a>
+  </main>
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery-migrate.min.js"></script>
@@ -363,6 +456,10 @@
     <script src="assets/js/slick.js"></script>
     <script src="assets/js/jquery.cubeportfolio.min.js"></script>
     <script src="assets/js/gmaps.min.js"></script>
+    <script src="assets/vendor/fancybox/jquery.fancybox.js"></script>
+    <script src="assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+    <script src="assets/vendor/dzsparallaxer/dzsscroller/scroller.js"></script>
+    <script src="assets/vendor/dzsparallaxer/advancedscroller/plugin.js"></script>
 
     <script src="assets/js/hs.core.js"></script>
     <script src="assets/js/hs.header.js"></script>
@@ -375,6 +472,7 @@
     <script src="assets/js/hs.go-to.js"></script>
 
     <script>
+
       function initMap() {
         $.HSCore.components.HSGMap.init('.js-g-map');
       }
@@ -383,24 +481,32 @@
 
         $.HSCore.components.HSCarousel.init('.js-carousel');
 
+
         $.HSCore.components.HSHeader.init($('#js-header'));
         $.HSCore.helpers.HSHamburgers.init('.hamburger');
+
+        $.HSCore.components.HSTabs.init('[role="tablist"]');
+
 
         $.HSCore.components.HSRating.init($('.js-rating'), {
           spacing: 2
         });
 
+
         $.HSCore.components.HSGoTo.init('.js-go-to');
       });
 
       $(window).on('load', function () {
+
         $.HSCore.components.HSScrollNav.init($('#js-scroll-nav'), {
           duration: 700
         });
 
-      $.HSCore.components.HSCubeportfolio.init('.cbp');
-      });
 
- </script>
+        $.HSCore.components.HSCubeportfolio.init('.cbp');
+      });
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtt1z99GtrHZt_IcnK-wryNsQ30A112J0&callback=initMap" async></script>
 </body>
 </html>
