@@ -1,1 +1,22 @@
-/* Add here all your css styles (customizations) */
+.centrado{
+  text-align: center
+}
+
+#lista1 li {
+     display:inline;
+     text-align: center;
+     float:left;
+	display: inline-block;
+     padding-left:50px;
+     padding-right:50px;
+     margin:10px;
+     width:220px;
+}
+
+.lihome {
+  text-align: center;
+  display: inline-block;
+  margin-left: 85px;
+  margin-right: 85px;
+
+}
