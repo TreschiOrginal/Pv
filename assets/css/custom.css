@@ -43,8 +43,8 @@ text-align: center;
 
 }
 
-.containerVideo {
-
-
-
+.open {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
