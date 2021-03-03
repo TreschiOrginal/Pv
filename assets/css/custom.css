@@ -6,17 +6,45 @@
      display:inline;
      text-align: center;
      float:left;
-	display: inline-block;
-     padding-left:50px;
-     padding-right:50px;
+	   display: inline-block;
+     padding-left:110px;
+     padding-right:110px;
      margin:10px;
-     width:220px;
+     width:200px;
 }
 
 .lihome {
   text-align: center;
   display: inline-block;
-  margin-left: 85px;
-  margin-right: 85px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.h9{
+text-align: center;
+
+}
+
+.elementor-video-iframe {
+  padding-left:110px;
+  padding-right:110px;
+  padding-top: 110px;
+  padding-bottom: 110;
+
+
+
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.containerVideo {
+
+
 
 }
