@@ -2,20 +2,7 @@
   text-align: center
 }
 
-#lista1 li {
-     display:inline;
-     text-align: center;
-     float:left;
-	   display: inline-block;
-     padding-left:110px;
-     padding-right:110px;
-     margin:10px;
-     width:200px;
-}
-
-.lihome {
-  text-align: center;
-  display: inline-block;
+.list {
   margin-left: 20px;
   margin-right: 20px;
 
@@ -41,10 +28,4 @@ text-align: center;
   align-items: center;
   justify-content: center;
 
-}
-
-.open {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
