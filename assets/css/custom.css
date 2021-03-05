@@ -29,3 +29,16 @@ text-align: center;
   justify-content: center;
 
 }
+
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gMaptit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45px;
+}
