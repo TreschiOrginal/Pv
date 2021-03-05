@@ -1,13 +1,10 @@
 <?php
- if (isset($_POST[submit])) {
-    $destino = "branjo19@hotmail.com";
-   if (!empty($_POST[name]) && !empty($_POST[tel]) && !empty($_POST[mensj])) {
-     $name = $_POST[name];
-     $asunto = $_POST[tel];
-     $msg = $_POST[mensj];
-  if ($mail) {
-    echo "<h4>¡Mail enviado exitosamente!</h4>";
-  }
-     // code...
-   }
- }
+
+ $destino = "branjo19@hotmail.com";
+   $nombre = $_POST["name"];
+   $numero = $_POST["tel"];
+   $mensaje = $_POST["mensj"];
+   $contenido = "Nombre: " . $name . "\nAsunto: " . $tel;
+   mail($destino, "Contacto", $mensj);
+   header("Location: A_Donde_Lo_Quieras_Redireccionar");
+//Esto es opcional, aqui pueden colocar un mensaje de "enviado correctamente" o redireccionarlo a algun lugar
